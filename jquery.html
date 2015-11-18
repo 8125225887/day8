@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body id="body">
+  <script>
+  var array = [{ id: '12', name: 'Smith', value: 1},{id: '13', name: 'Jones', value: 2}];
+  var str;
+  str += "<table id = 'table'><tr><th id = 'th1'>id</th>";
+  str += "<th id = 'th2'>name</th>";
+  str += "<th id = 'th3'>value</th>";
+
+array.sort(function(a, b){
+   var a1= a.name, b1= b.name;
+   if(a1 == b1) return 0;
+   return a1> b1? 1: -1;
+});
+console.log(array[i]);
+</script>
+</body>
+</html>
